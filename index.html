@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timea-Infos</title>
+    <style>
+
+        html, body {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, sans-serif;
+            background-color: #a3bbda;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 16px 0px;
+        }
+
+        .header-links {
+            text-align: left;
+            width: 280px;
+        }
+
+        h3 {
+            text-decoration: underline;
+        }
+
+        .header-rechts {
+            flex: 1;
+            text-align: left;
+        }
+
+        img.bild {
+            display: block;
+            margin: 0px;
+            max-width: 120px;
+            height: auto;
+        }
+
+        table {
+            text-align: center;
+            margin-bottom: 24px;
+            background-color: #c5d3e0;
+            color: #000;
+        }
+        
+        table label {
+            display: block;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        table caption {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        table th {
+            text-align: left;
+        }
+
+        table td {
+            text-align: right;
+        }
+
+        th, td {
+            width: 200px;
+            padding: 4px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        footer {
+            text-align: left;
+            margin-top: 24px;
+            padding: 2px;
+            background-color: #c5d3e0;
+            color: #000;
+        }
+
+        footer p {
+            margin-left: 8px;
+            font-size: 14px;
+        }
+
+        @media (min-width: 880px){
+
+            .header {
+                display: flex;
+                justify-content: center;
+            }
+
+            .header-links {
+                flex: 1;
+                text-align: right;
+            }
+
+            .header-rechts {
+                margin-left: 32px;
+            }
+
+            .tabellen-container {
+                display: flex;
+                justify-content: space-evenly;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-links">
+            <h1>Timea-Infos</h1>
+            <h3>Steckbrief über Timea`s Leben</h3>
+        </div>
+        
+        <div class="header-rechts">
+            <img src="Sonne.png" alt="Sonne" class="bild">
+        </div>
+    </div>
+
+    <div class="tabellen-container">
+        <table class="tabelle-persönliches">
+            <caption>Persönliches</caption>
+            <tr>
+                <th>Vollständiger Name</th>
+                <td>Timea Ciupke</td>
+            </tr>
+            <tr>
+                <th>Geschlecht</th>
+                <td>weiblich</td>
+            </tr>
+            <tr> 
+                <th>Geburtsdatum</th>
+                <td>27.12.2004</td>
+            </tr>
+            <tr>
+                <th>Alter</th>
+                <td>21 Jahre</td>
+            </tr>
+            <tr>
+                <th>Größe</th>
+                <td>1,73 m</td>
+            </tr>
+            <tr>
+                <th>Gewicht</th>
+                <td>70 kg</td>
+            </tr>
+            <tr>
+                <th>Haarfarbe</th>
+                <td>blond</td>
+            </tr>
+            <tr>
+                <th>Augenfarbe</th>
+                <td>grün</td>
+            </tr>
+            <tr>
+                <th>Nationalität</th>
+                <td>deutsch</td>
+            </tr>
+            <tr>
+                <th>Geburtsort</th>
+                <td>Bergisch Gladbach</td>
+            </tr>
+            <tr>
+                <th>Wohnort</th>
+                <td>Köln</td>
+            </tr>
+            <tr>
+                <th>Geschwister</th>
+                <td>Maja</td>
+            </tr>
+        </table>
+
+        <table class="tabelle-interresantes">
+            <caption>Interessantes</caption>
+            <tr>
+                <th>Familienstand</th>
+                <td>ledig</td>  
+            </tr>
+            <tr>
+                <th>Freund</th>
+                <td>Lukas</td>
+            </tr>
+            <tr>
+                <th>Schulabschluss</th>
+                <td>Abitur</td>
+            </tr>
+            <tr>
+                <th>Beruf</th>
+                <td>Ausbildung MTL</td>
+            </tr>
+            <tr>
+                <th>Führerschein</th>
+                <td>ja</td>
+            </tr>
+            <tr>
+                <th>Rauchen</th>
+                <td>nein</td>
+            </tr>
+            <tr>
+                <th>Alkohol</th>
+                <td>nein</td>
+            </tr>
+            <tr>
+                <th>Eigene Wohnung</th>
+                <td>ja</td>
+            </tr>
+            <tr>
+                <th>Haustiere</th>
+                <td>nein</td>
+            </tr>
+            <tr>
+                <th>Operierte</th>
+                <td>ja</td>
+            </tr>
+            <tr>
+                <th>Supermarkt</th>
+                <td>HIT</td>
+            </tr>
+            <tr>
+                <th>Fastfood</th>
+                <td>Burger King</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Timea Ciupke. Alle Rechte vorbehalten.</p>
+    </footer>
+
+</body>
+</html>
